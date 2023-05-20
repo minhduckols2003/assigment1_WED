@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 1
+    </title>
+</head>
+
+<body>
+    <div class="all">
+
+        <div class="nav">
+            <div class="image-container">
+                <img src="/Assignments_1/logo.jpg" alt="picture">
+            </div>
+            <div class="subnav">
+                <h2 class="subnav_header">ACTIVITY</h2>
+                <ol class="subnav_item">
+                    <li class="subnav_li_item">Activity 01
+                        <ul class="sub_ul_1">
+                            <li>Location: Green Park</li>
+                            <li>Time: 1st March</li>
+                            <li>Register via link: <a href="https://www.englishclub.com/">English Club's Website</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="subnav_li_item">Activity 02
+                        <ul class="sub_ul_2">
+                            <li>Location: Wine lake</li>
+                            <li>Time: 3rd April</li>
+                            <li>Register via link <a href="https://www.englishclub.com/">English Club's Website</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="subnav_li_item">Avtivity 03
+                        <ul class="sub_ul_3">
+                            <li>Location: Local Park</li>
+                            <li>Time: 7th May April</li>
+                            <li>Register via link <a href="https://www.englishclub.com/">English Club's Website</a></li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="container_middle">
+            <h1><i>You can do it - We can help !</i></h1>
+        </div>
+        <div class="container_end">
+            <table class="info-table">
+
+                <tr class="email-input">
+                    <th class="info-label">
+                        <label for="email">Email:</label>
+                    </th>
+                    <th>
+                        <input placeholder="Please input your email" type="email" id="email" name="email" required />
+                    </th>
+                </tr>
+                <tr>
+                    <th class="info-label">
+                        <label for="fullname">Full name:</label>
+                    </th>
+                    <th>
+                        <input placeholder="Please input your full name" type="text" id="fullname" name="fullname"
+                            required />
+                    </th>
+                </tr>
+                <tr>
+                    <th class="info-label">
+                        <label for="gender">Gender:</label>
+                    </th>
+                    <th class="display-flex">
+                        <label class="display-flex">
+                            <input type="radio" name="gender" value="male" required />
+                            Male
+                        </label>
+                        <label class="display-flex">
+                            <input type="radio" name="gender" value="female" required />
+                            Female
+                        </label>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="info-label">
+                        <label for="country">Country:</label>
+                    </th>
+                    <th class="country-input">
+                        <select id="country" name="country" required>
+                            <option value="USA">Vietnam</option>
+                            <option value="UK">Thailand</option>
+                            <option value="France">USA</option>
+                            <option value="Germany">Australia</option>
+                        </select>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="info-label">
+                        <label for="hobby">Hobby:</label>
+                    </th>
+                    <th class="hobby-input">
+                        <label>
+                            <input type="checkbox" name="hobby" value="reading" />
+                            Travelling
+                        </label>
+                        <label>
+                            <input type="checkbox" name="hobby" value="painting" />
+                            Shopping
+                        </label>
+                        <label>
+                            <input type="checkbox" name="hobby" value="playing_music" />
+                            Reading
+                        </label>
+                    </th>
+                </tr>
+                <tr class="introduction-input">
+                    <th class="info-label">
+                        <label for="introduction">Introduction:</label>
+                    </th>
+                    <th>
+                        <textarea placeholder="Please introduce yourself briefly!" rows="4" id="introduction"
+                            name="introduction"></textarea>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="info-label">
+                        <label for="photo">Upload Photo:</label>
+                    </th>
+                    <th>
+                        <input type="file" id="photo" name="photo" />
+                    </th>
+                </tr>
+
+
+
+            </table>
+
+            <table class="pass-info-table">
+                <tr>
+                    <th class="info-label">
+                        <label for="password">Password:</label>
+                    </th>
+                    <th class="password-input">
+                        <input placeholder="Please enter password" type="password" id="password" name="password"
+                            required />
+                    </th>
+                </tr>
+                <tr>
+                    <th class="info-label">
+                        <label for="re-password">Re-enter password:</label>
+                    </th>
+                    <th class="password-input">
+                        <input placeholder="Please re-enter password" type="password" id="re-password"
+                            name="re-password" required />
+                    </th>
+                </tr>
+            </table>
+
+            <div class="submit" style="text-align: center;">
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
